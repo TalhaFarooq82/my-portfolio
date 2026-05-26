@@ -1,0 +1,23 @@
+:root {
+  --bg:      #faf5ff;
+  --bg2:     #ffffff;
+  --accent:  #7c3aed;
+  --text:    #1e1b4b;
+  --muted:   #6b7280;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
