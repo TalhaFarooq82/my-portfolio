@@ -2,7 +2,10 @@ function Navbar() {
   return (
     <header style={styles.header}>
       <nav style={styles.nav}>
-        <span style={styles.logo}>Talha Farooq</span>
+        <span style={styles.logo}>
+            <span style={styles.logoIcon}>✦</span>
+            TF
+        </span>
         <ul style={styles.ul}>
           <li><a href="#about" style={styles.link}>About</a></li>
           <li><a href="#projects" style={styles.link}>Projects</a></li>
@@ -31,6 +34,22 @@ const styles = {
     fontWeight: 'bold',
     color: 'var(--accent)',
   },
+
+  logo: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: '8px',
+    fontSize: '20px',
+    fontWeight: 'bold',
+    color: 'var(--accent)',
+    },
+
+   logoIcon: {
+    fontSize: '18px',
+    color: 'var(--accent)',
+    animation: 'spin 4s linear infinite',
+    }, 
+
   ul: {
     display: 'flex',
     gap: '32px',
