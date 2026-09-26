@@ -17,11 +17,10 @@ function Projects() {
     <section id="projects" style={styles.section}>
       <h2 style={styles.heading}>Projects</h2>
       <div style={styles.grid}>
-
         <ProjectCard
-          title="Quiz App"
-          description="Full-stack quiz application built with Flask. Features authentication, session management, and score tracking."
-          tags={['Python', 'Flask', 'Bootstrap']}
+          title="Multi-Agent Research System"
+          description="Multi-agent research pipeline using LangGraph's StateGraph, coordinating Planner, Researcher, Writer, and Critic agent nodes. In progress."
+          tags={['LangGraph', 'LangChain', 'Gemini API']}
         />
 
         <ProjectCard
@@ -36,6 +35,11 @@ function Projects() {
           tags={['Python', 'Speech AI', 'ML']}
         />
 
+        <ProjectCard
+          title="Quiz App"
+          description="Full-stack quiz application built with Flask. Features authentication, session management, and score tracking."
+          tags={['Python', 'Flask', 'Bootstrap']}
+        />  
       </div>
     </section>
   )

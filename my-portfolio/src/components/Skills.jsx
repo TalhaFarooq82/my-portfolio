@@ -15,10 +15,10 @@ function Skills() {
     <section id="skills" style={styles.section}>
       <h2 style={styles.heading}>Skills</h2>
       <div style={styles.grid}>
-        <SkillGroup title="Languages" skills={['Python', 'JavaScript', 'C++']} />
-        <SkillGroup title="Web" skills={['Flask', 'Django', 'HTML / CSS']} />
-        <SkillGroup title="AI / ML" skills={['Machine Learning', 'Deep Learning', 'RAG / NLP', 'CNN / LSTM']} />
-        <SkillGroup title="Tools" skills={['GitHub', 'MySQL', 'PostgreSQL', 'VS Code']} />
+        <SkillGroup title="AI/ML & Data Science" skills={['LangChain', 'LangGraph', 'RAG', 'LightGBM', 'XGBoost', 'Scikit-learn']} />
+        <SkillGroup title="LLM & APIs" skills={['Gemini API', 'Groq API', 'Prompt Engineering', 'Tool Calling']} />
+        <SkillGroup title="Backend" skills={['FastAPI', 'Flask', 'Django', 'MySQL', 'PostgreSQL']} />
+        <SkillGroup title="Languages & Tools" skills={['Python', 'JavaScript', 'C++', 'Git/GitHub']} />
       </div>
     </section>
   )

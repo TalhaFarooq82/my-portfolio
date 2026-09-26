@@ -10,7 +10,7 @@ function Contact() {
         </a>
         <a href="https://linkedin.com/in/talha-farooq-45267a297" target="_blank" style={styles.card}>
           <span style={styles.label}>LinkedIn</span>
-          <span style={styles.value}>linkedin.com/in/talha-farooq</span>
+          <span style={styles.value}>linkedin.com/in/talha-farooq-45267a297</span>
         </a>
         <a href="https://github.com/TalhaFarooq82" target="_blank" style={styles.card}>
           <span style={styles.label}>GitHub</span>

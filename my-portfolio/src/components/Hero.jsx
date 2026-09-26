@@ -2,7 +2,7 @@ function Hero() {
   return (
     <section style={styles.section}>
       <h1 style={styles.h1}>Talha Farooq</h1>
-      <p style={styles.p}>Python Developer | AI & Backend Enthusiast</p>
+      <p style={styles.p}>AI/ML Engineer | Data Scientist</p>
       <div style={styles.buttons}>
         <a href="#projects" style={styles.btnPrimary}>View My Work</a>
         <a href="#contact" style={styles.btnOutline}>Contact Me</a>

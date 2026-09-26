@@ -3,11 +3,11 @@ function About() {
     <section id="about" style={styles.section}>
       <h2 style={styles.heading}>About Me</h2>
       <p style={styles.text}>
-        Python Developer with hands-on experience in backend development and AI-based systems.
-        Skilled in building scalable web applications using Flask and Django, and developing
-        intelligent solutions using Retrieval-Augmented Generation (RAG), Natural Language
-        Processing (NLP), and machine learning. Passionate about solving real-world problems
-        through clean, efficient code.
+        AI/ML Engineer and Data Scientist with hands-on industry experience building production AI
+        and machine learning systems. Currently a Junior AI Developer at Startex Marketing Services,
+        working across demand forecasting, LLM-based data extraction pipelines, and agentic AI
+        features for live client products. Skilled in Python, FastAPI, LangChain/LangGraph, RAG,
+        and applied ML. Comfortable owning a system end-to-end — from model development to deployment.
       </p>
     </section>
   )
